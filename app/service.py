@@ -16,7 +16,9 @@ class ItemService:
         self.lista.append(item_novo)
         return item_novo
 
+
 service = None
+
 
 def get_service():
     global service
