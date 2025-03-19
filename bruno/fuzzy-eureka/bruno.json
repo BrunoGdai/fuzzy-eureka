@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "fuzzy-eureka",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

@@ -1,0 +1,19 @@
+meta {
+  name: cria item
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/itemtodo
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo": "abc",
+    "descricao": "123",
+    "concluido": true
+  }
+}
